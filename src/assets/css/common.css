@@ -1,0 +1,128 @@
+/* 侧边栏切换页面抖动 */
+#page-wrapper>.row {
+  margin: 0;
+}
+/* 面板默认样式 */
+.panel-default>.panel-heading {
+    background-color: #f5f5f5;
+    font-weight: 700;
+}
+.panel {
+    margin-bottom: 10px;
+}
+/* 面板默认样式 */
+
+
+/* 按钮默认样式 */
+.btn {
+    margin-right: 5px;
+    outline: none !important;
+    border-color:transparent !important;
+  }
+.btn:focus{
+    color: #fff;
+}
+
+.btn:hover{
+    color: #fff;
+}
+/* 按钮默认样式 */
+
+
+/* default按钮样式 */
+.btn-default{
+    background-color: #a1a1a1;
+    color: #fff;
+  }
+/* default按钮样式 */
+
+
+/* a链接样式 */
+a,a:link,a:visited,a:hover {
+    text-decoration: none;
+    /* color: #fff; */
+}
+a {
+    /* color: #000; */
+}
+.nav>li>a:focus,
+.nav>li>a:hover {
+    text-decoration: none;
+    background-color: #eee;
+}
+/* a链接样式 */
+
+
+/* 自定义按钮类 */
+.btn-secondary {
+    color: #fff;
+    background-color: rgb(153, 153, 153);
+    border-color: rgb(146, 146, 146);
+}
+.btn-secondary:hover {
+    color: #fff;
+    background-color: rgb(140, 140, 140);
+    border-color: rgb(135, 135, 135);
+}
+.btn-commonly {
+    color: #fff;
+    background-color: rgb(129, 119, 197);
+    border-color: rgb(117, 103, 214);
+}
+.btn-commonly:hover {
+    color: #fff;
+    background-color: rgb(117, 103, 214);
+    border-color: rgb(97, 84, 187);
+}
+.btn-ordinary {
+    background: rgb(190, 195, 199);
+    border: none;
+    color: #fff;
+}
+.btn-cyan {
+    color: #fff;
+    margin: 0;
+    margin-right: 5px;
+    background-color: rgba(64, 202, 191, 1);
+}
+.btn-purple{
+    color: #fff;
+    margin: 0;
+    margin-right: 5px;
+    background-color: rgba(141, 131, 204, 1);
+}
+.btn-lightred{
+    color: #fff;
+    margin: 0;
+    margin-right: 5px;
+    background-color:rgba(255, 108, 96, 1);
+}
+/* 自定义按钮类 */
+
+
+/* 自定义文本类 */
+.text-white {
+    color: #fff
+}
+/* 自定义文本类 */
+ .err-text {
+   color: #999;
+   font-size: 12px;
+ }
+ .err-text-or {
+   color: #f00;
+ }
+
+ label {
+   font-weight: 400;
+ }
+
+ table,
+ td,
+ tr,
+ th {
+   font-size: 13px;
+ }
+ .dis-flex {
+   display: flex;
+ }
